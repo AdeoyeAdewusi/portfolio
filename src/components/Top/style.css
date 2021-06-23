@@ -1,9 +1,8 @@
 .top{
     background-color: #DAB49D;
     color: white;
-    padding: 20%;
+    padding: 27%;
     display: flex;
-    width: 100vw;
     justify-content: center;
 }
 .remove{
