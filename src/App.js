@@ -1,13 +1,14 @@
 import './App.scss';
 import Home from './page/home';
-import { Cursor } from './components';
+import { Cursor, Topview } from './components';
 
 function App() {
 
   return (
     <div>
-      <Cursor/>
-      <Home/>
+
+        <Home/>
+      <Cursor/> 
     </div>
 
     

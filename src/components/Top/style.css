@@ -95,3 +95,45 @@
         fill:#fff;
     }
 }
+#topUp{
+  position: absolute;
+  bottom: 83px;
+
+}
+#topUp path:nth-child(1){
+  fill: white;
+  animation: swipe 2s ease-in-out forwards 1.5s infinite;
+}
+#topUp path:nth-child(2){
+  fill: white;
+  animation: swipes 2s ease-in-out forwards 1.5s infinite;
+}
+@keyframes swipes{
+  0% {
+    opacity: 0;
+    transform: translate(0px, 0px)
+
+      }
+50%{
+    opacity: 1;
+    transform: translate(0px, -100px)
+}
+100%{
+  opacity: 0;
+}
+
+
+}
+@keyframes swipe{
+  0% {
+   opacity: 0;
+    transform: translate(0px, 0px)
+      }
+50%{
+    opacity: 1;
+    transform: translate(0px, -100px)
+}
+100%{
+  opacity: 0;
+}
+}
