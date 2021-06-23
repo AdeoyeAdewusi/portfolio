@@ -1,7 +1,9 @@
 .top{
     background-color: #DAB49D;
+    position: absolute;
     color: white;
-    padding: 27%;
+    height: 100%;
+    width: 100%;
     display: flex;
     justify-content: center;
 }
@@ -16,6 +18,9 @@
     transform: translate(0px, -2000px)
 }
 
+}
+#hi{
+  margin-top: 120%;
 }
 #hi path:nth-child(1){
     stroke-dasharray: 109.71302795410156px;
