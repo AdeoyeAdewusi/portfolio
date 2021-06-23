@@ -1,6 +1,6 @@
 import './App.scss';
 import Home from './page/home';
-import { Cursor, Topview } from './components';
+import { Cursor, } from './components';
 
 function App() {
 
@@ -9,6 +9,7 @@ function App() {
 
         <Home/>
       <Cursor/> 
+      
     </div>
 
     
