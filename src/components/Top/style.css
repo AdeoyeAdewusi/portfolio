@@ -3,6 +3,7 @@
     color: white;
     padding: 20%;
     display: flex;
+    width: 100vw;
     justify-content: center;
 }
 .remove{
