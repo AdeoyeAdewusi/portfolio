@@ -3,6 +3,7 @@ import "../Top/style.css"
 
 const Top = () => {
 const [loading, setLoading] = useState(null)
+const [reml, setReml] = useState('')
 
 useEffect(() => {
     setLoading(true)
@@ -10,9 +11,13 @@ useEffect(() => {
        setLoading(false) 
     }, 10000)
 }, [])
+const removeLoader = () =>{
+    setReml('remove')
+}
+
 
     return (
-        <div className="top">
+        <div className={`top ${reml}`}>
             <div>
             <svg id='hi' width="202" height="29" viewBox="0 0 202 29" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M16.2383 22H13.5054V12.4702H3.11182V22H0.393066V1.38281H3.11182V10.2471H13.5054V1.38281H16.2383V22Z" />
@@ -38,8 +43,9 @@ useEffect(() => {
 
             </div>
             :
-<svg id="topUp" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-	 width="20px" height="100px" viewBox="0 0 284.929 284.929"
+<svg onClick={removeLoader} id="topUp" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+     width="20px" height="100px" viewBox="0 0 284.929 284.929"
+     
 	 >
 		<path d="M17.128,167.872c1.903,1.902,4.093,2.854,6.567,2.854c2.474,0,4.664-0.952,6.567-2.854L142.466,55.666l112.208,112.206
 			c1.902,1.902,4.093,2.854,6.563,2.854c2.478,0,4.668-0.952,6.57-2.854l14.274-14.277c1.902-1.902,2.847-4.093,2.847-6.563

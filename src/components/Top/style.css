@@ -1,9 +1,21 @@
 .top{
-    background-color: black;
+    background-color: #DAB49D;
     color: white;
     padding: 20%;
     display: flex;
     justify-content: center;
+}
+.remove{
+  animation: toprem ease-in-out forwards 10.4s;
+}
+@keyframes toprem{
+  0% {
+    transform: translate(0px, 0px)
+      }
+100%{
+    transform: translate(0px, -2000px)
+}
+
 }
 #hi path:nth-child(1){
     stroke-dasharray: 109.71302795410156px;
@@ -84,7 +96,7 @@
           }
     to{
         stroke-dashoffset:0%;
-        stroke: black;
+        stroke: white;
     }
 }
     @keyframes fill{
