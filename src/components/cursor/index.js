@@ -1,8 +1,5 @@
 import React,{useRef, useEffect} from 'react'
 import '../cursor/style.css'
-import {TweenMax} from 'gsap';
-import { identifier } from '@babel/types';
-import { delay } from 'q';
 
  const Cursor = () => {
   const delay = 18;
@@ -36,7 +33,7 @@ import { delay } from 'q';
 
       cancelAnimationFrame(requestRef.current)
     }
-  }, [])
+  }, )
 
   const toggleCursorVisibility = () =>{
     if(cursorVisible.current){
