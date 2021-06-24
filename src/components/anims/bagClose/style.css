@@ -1,0 +1,59 @@
+.ico path:nth-child(1){
+    transform: translate(0px, 0px);
+  }
+  .ico path:nth-child(2){
+    transform: translate(0px, 0px);
+  }
+  .ico path:nth-child(3){
+    transform: translate(0px, 0px);
+  }
+  .ico path:nth-child(4){
+    transform: translate(0px, 0px);
+  }
+  
+  
+  #iconclose path:nth-child(1){
+    animation: logoAnimasss 2s ease-in-out forwards;
+  }
+  #iconclose path:nth-child(2){
+    animation: logoAnimass 2s ease-in-out forwards;
+  }
+  #iconclose path:nth-child(3){
+  animation: logoAnimas 2s ease-in-out forwards;
+  }
+  #iconclose path:nth-child(4){
+  animation: logoAnima 2s ease-in-out forwards;
+  }
+  
+  @keyframes logoAnima{
+    from {
+      transform: translate(0px, 0px);
+      }
+  to{
+    transform: translate(10px, 0px);
+  }
+  }
+  @keyframes logoAnimas{
+    from {
+      transform: translate(0px, 0px);
+      }
+  to{
+    transform: translate(0px, 10px);
+  }
+  }
+  @keyframes logoAnimass{
+    from {
+      transform: translate(0px, 0px);
+      }
+  to{
+    transform: translate(-10px, 0px);
+  }
+  }
+  @keyframes logoAnimasss{
+    from {
+      transform: translate(0px, 0px);
+      }
+  to{
+    transform: translate(0px, 10px);
+  }
+  }

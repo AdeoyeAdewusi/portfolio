@@ -1,0 +1,75 @@
+
+.logoOpen path:nth-child(7){
+    animation: logoopen 2s ease-in-out forwards;
+    }
+.logoOpen path:nth-child(8){
+     animation: logoopens 2s ease-in-out forwards;
+    }
+.logoOpen path:nth-child(9){
+     animation: logoopenss 2s ease-in-out forwards;
+   }
+.logoOpen path:nth-child(10){
+    animation: logoopensss 2s ease-in-out forwards;
+    }
+      
+#logp path:nth-child(7){
+    transform: translate(0px, 3px); 
+
+
+}
+#logp path:nth-child(8){
+    transform: translate(-2px, 0px); 
+
+}
+#logp path:nth-child(9){
+   
+    transform: translate(0px, 3px); 
+
+}
+#logp path:nth-child(10){
+
+    transform: translate(2px, 0px); 
+}
+
+
+
+    @keyframes logoopen{
+        from {
+          transform: translate(0px, 3px);
+          }
+      to{
+        transform: translate(0px, 0px);
+      }
+      }
+      @keyframes logoopens{
+        from {
+          transform: translate(-2px, 0px);
+          }
+      to{
+        transform: translate(0px, 0px);
+      }
+      }
+      @keyframes logoopenss{
+        from {
+          transform: translate(0px, 3px);
+          }
+      to{
+        transform: translate(0px, 0px);
+      }
+      }
+      @keyframes logoopensss{
+        from {
+          transform: translate(2px, 0px);
+          }
+      to{
+        transform: translate(0px, 0px);
+      }
+      }
+
+
+
+
+
+
+
+

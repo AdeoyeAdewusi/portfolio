@@ -1,0 +1,59 @@
+.ic path:nth-child(1){
+    transform: translate(0px, 10px);
+  }
+  .ic path:nth-child(2){
+    transform: translate(-10px, 0px);
+  }
+  .ic path:nth-child(3){
+    transform: translate(0px, 10px);
+  }
+  .ic path:nth-child(4){
+    transform: translate(10px, 0px);
+  }
+  
+  
+  #icon path:nth-child(1){
+    animation: logoAnimsss 2s ease-in-out forwards;
+  }
+  #icon path:nth-child(2){
+    animation: logoAnimss 2s ease-in-out forwards;
+  }
+  #icon path:nth-child(3){
+  animation: logoAnims 2s ease-in-out forwards;
+  }
+  #icon path:nth-child(4){
+  animation: logoAnim 2s ease-in-out forwards;
+  }
+  
+  @keyframes logoAnim{
+    from {
+      transform: translate(10px, 0px);
+      }
+  to{
+    transform: translate(0px, 0px);
+  }
+  }
+  @keyframes logoAnims{
+    from {
+      transform: translate(0px, 10px);
+      }
+  to{
+    transform: translate(0px, 0px);
+  }
+  }
+  @keyframes logoAnimss{
+    from {
+      transform: translate(-10px, 0px);
+      }
+  to{
+    transform: translate(0px, 0px);
+  }
+  }
+  @keyframes logoAnimsss{
+    from {
+      transform: translate(0px, 10px);
+      }
+  to{
+    transform: translate(0px, 0px);
+  }
+  }
