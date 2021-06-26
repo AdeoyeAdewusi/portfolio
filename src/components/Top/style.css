@@ -1,6 +1,8 @@
 .top{
     background-color: #DAB49D;
     position: absolute;
+    top:0%;
+    z-index: 1;
     color: white;
     height: 100%;
     width: 100%;
