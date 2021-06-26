@@ -8,6 +8,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    position: fixed;
 }
 .remove{
   animation: toprem ease-in-out forwards 10.4s;

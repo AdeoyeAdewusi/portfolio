@@ -9,6 +9,74 @@
     color: white;
     text-decoration: none;
 }
+.nav_About:hover{
+ animation: about 1s ease-in-out forwards;
+ 
+}
+.nav_Resume:hover{
+    animation: resume 1s ease-in-out forwards;
+      
+}
+.nav_Portfolio:hover{
+    animation: portfolio 1s ease-in-out forwards;
+      
+}
+.nav_Contact:hover{
+    animation: contact 1s ease-in-out forwards;
+      
+}
+@keyframes about{
+    0%{
+        transform: translate(0px, 0px);
+        color:#ffffff;
+    }
+    50%{
+        transform: translate(0px, -5px);
+    }
+    100%{
+        transform: translate(0px, 0px);
+        color: #E0AFA0;
+    }
+}
+@keyframes portfolio{
+    0%{
+        transform: translate(0px, 0px);
+        color:#ffffff;
+    }
+    50%{
+        transform: translate(0px, -5px);
+    }
+    100%{
+        transform: translate(0px, 0px);
+        color: #E0AFA0;
+    }
+}
+@keyframes resume{
+    0%{
+        transform: translate(0px, 0px);
+        color:#ffffff;
+    }
+    50%{
+        transform: translate(0px, -5px);
+    }
+    100%{
+        transform: translate(0px, 0px);
+        color: #E0AFA0;
+    }
+}
+@keyframes contact{
+    0%{
+        transform: translate(0px, 0px);
+        color:#ffffff;
+    }
+    50%{
+        transform: translate(0px, -5px);
+    }
+    100%{
+        transform: translate(0px, 0px);
+        color: #E0AFA0;
+    }
+}
 @keyframes anim{
     from{
         transform: translate(-1500px, 0px);

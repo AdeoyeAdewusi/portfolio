@@ -12,7 +12,7 @@ const Topview = () => {
       </div>
 
     <ReactTypingEffect
-      text={["I Am A Full Stack Web Developer And 3D Designer"]}
+      text={["Full Stack Web Developer And 3D Designer"]}
       cursorRenderer={cursor => <h1>{cursor}</h1>}
       displayTextRenderer={(text, i) => {
         return (
@@ -30,6 +30,26 @@ const Topview = () => {
         );
       }}        
     />
+<div className='topView_Skills'>
+    <div className='topView_Htmlcss'>
+        <p>Html/Css</p>
+    </div>
+    <div className='topView_React'>
+        <p>ReactJs</p>
+    </div>
+    <div className='topView_Php'>
+        <p>PHP</p>
+    </div>
+    <div className='topView_FM'>
+        <p>Firebase/MySql</p>
+    </div>
+    <div className='topView_Git'>
+        <p>Git</p>
+    </div>
+    <div className='topView_Blend'>
+        <p>Blender3D</p>
+    </div>
+    </div>
 </div>
   );
 }

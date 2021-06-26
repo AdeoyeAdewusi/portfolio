@@ -6,10 +6,10 @@ const Nav = () => {
     return (
     <div>
 		<div id='navLinks'>
-		<a href="#About"><h3>About</h3></a>
-		<a href="#Resume"><h3>Resume</h3></a>
-		<a href="#Portfolio"><h3>Portfolio</h3></a>
-		<a href="#Contact"><h3>Contact</h3></a>
+		<a className='nav_About' href="#About"><h4>About</h4></a>
+		<a className='nav_Resume' href="#Resume"><h4>Resume</h4></a>
+		<a className='nav_Portfolio' href="#Portfolio"><h4>Portfolio</h4></a>
+		<a className='nav_Contact' href="#Contact"><h4>Contact</h4></a>
 		</div>
 	</div>
     )
