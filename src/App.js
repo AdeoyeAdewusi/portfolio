@@ -1,14 +1,14 @@
 import './App.scss';
 import Home from './page/home';
-import { Cursor, } from './components';
+import { Cursor, Top, Nav, } from './components';
 
 function App() {
 
   return (
     <div>
-
+      <Nav/>
         <Home/>
-      <Cursor/> 
+<Cursor/>
       
     </div>
 

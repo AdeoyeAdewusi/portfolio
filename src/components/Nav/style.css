@@ -1,0 +1,19 @@
+#navLinks{
+    display: flex;
+    justify-content: space-evenly;
+    animation: anim 2s ease-in-out forwards;
+    text-align: inline-flex;
+    color: white;
+}
+#navLinks a{
+    color: white;
+    text-decoration: none;
+}
+@keyframes anim{
+    from{
+        transform: translate(-1500px, 0px);
+    }
+    to{
+        transform: translate(0px, 0px);
+    }
+}

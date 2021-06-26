@@ -10,7 +10,7 @@ useEffect(() => {
     setLoading(true)
     setTimeout(()=>{
        setLoading(false) 
-    }, 10000)
+    }, 3000)
 }, [])
 const removeLoader = () =>{
     setReml('remove')
