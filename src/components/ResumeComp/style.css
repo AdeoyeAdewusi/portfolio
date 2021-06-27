@@ -1,0 +1,11 @@
+.Resume{
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    box-shadow: 5px 10px 20px 2px #888888;
+    margin-top:10%;
+    margin-bottom:10%;
+}
+ul{
+    list-style: none;
+}

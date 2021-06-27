@@ -1,6 +1,6 @@
 import React from 'react';
 import "../home/style.css";
-import { Topview, Portfolio } from '../../components';
+import { Topview, Portfolio, Resume } from '../../components';
 import Aboutcomp from '../../components/aboutComp';
 
 
@@ -10,6 +10,7 @@ const Home = () => {
         <div>
             <Topview/>
             <Aboutcomp/>
+            <Resume/>
             <Portfolio/>
         </div>
     )

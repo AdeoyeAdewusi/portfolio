@@ -1,6 +1,5 @@
 .aboutComp{
     width: 100%;
-
     margin-top: 147px;
     margin-bottom:0px;
     bottom:0px;
@@ -8,6 +7,9 @@
     height: auto;
     background-color: white;
     grid-template-columns: 40% 40%;
-    grid-gap: 10%;
+    grid-gap: 5%;
     display: grid;
+}
+.aboutComp_abs{
+    margin-top: 14%;
 }
