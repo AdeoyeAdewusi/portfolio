@@ -4,11 +4,12 @@ import './style.css'
 const Resume = () => {
     return (
         <div className='Resume' id="Resume">
-            <div>
-            <div>
+        <div className='resume_b'>
+            <div className="resume_Block1">
                 WEB DEVELOPER 01/2018 to CURRENT
                 SELF – Yaba Lagos | Lagos, LA
                 Major Benchmarks:.
+                <div className='resume_Block1_BM'>
                 <ul>
                     <li>Built and deployed Instagram clone using ReactJs and firebase,.</li>
                     <li>Efficiently deployed PWA (Progressive Web App).</li>
@@ -21,9 +22,10 @@ const Resume = () => {
                     <li>Integrated firebase firestore database ina web app.</li>
                     <li>Deployed web app efficiently on firebase network.</li>
                 </ul>
+                </div>
             </div>
 
-            <div>
+            <div className="resume_Block2">
                 WEB DEVELOPER 01/2018 to CURRENT
                 TRONICLAB – Yaba Lagos | Lagos, LA
                 Major Benchmarks:
@@ -44,7 +46,7 @@ const Resume = () => {
                 </ul>
             </div>
 
-            <div>
+            <div className="resume_Block3">
                 FULL STACK WEB DEVELOPER 01/2018 to 06/2019
                 EASYTRANSPORT.COM.NG | Lagos, LA
                 <ul>
@@ -57,11 +59,11 @@ const Resume = () => {
                         meta content tags in website's files for better SEO.</li>
                 </ul>
             </div>
-            <div>
+            <div className="resume_Block4">
                 FREELANCE FRONT END DEVELOPER 01/2017 to 03/2019
                 Self Employed Web | Lagos, Lagos, Nigeria
             </div>
-            <div>
+            <div className="resume_Block5">
                 FRONT END DEVELOPER 01/2018 to 11/2018
                 SCALEHIVE.COM - Yaba Lagos | Lagos, LALagos, Nigeria
             </div>

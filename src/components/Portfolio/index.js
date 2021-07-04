@@ -1,17 +1,30 @@
-import React from 'react'
+
 import './style.css'
-import HorizontalScroll from 'react-scroll-horizontal'
+import React, { useState, useEffect, useRef } from 'react'
+import BIRDS from 'vanta/dist/vanta.net.min'
 
 const Portfolio = () => {
+    const [vantaEffect, setVantaEffect] = useState(0)
+    const myRef = useRef(null)
+    useEffect(() => {
+      if (!vantaEffect) {
+        setVantaEffect(BIRDS({
+          el: myRef.current
+        }))
+      }
+      return () => {
+        if (vantaEffect) vantaEffect.destroy()
+      }
+    }, [vantaEffect])
     return (
-    <div className='portfolio'>
-        <body>
-        <HorizontalScroll>
-            <h1>Somethign</h1>
-            <h1>Somethign</h1>
-        </HorizontalScroll>
-      </body>
- 
+    <div>
+     <div>
+        <div ref={myRef}>
+        </div>
+    </div>
+    <div>
+
+    </div>
     </div>
     )
 }

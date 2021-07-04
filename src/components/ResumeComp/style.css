@@ -1,11 +1,110 @@
 .Resume{
     width: 80%;
     margin-left: 10%;
-    text-align: center;
-    box-shadow: 5px 10px 20px 2px #888888;
     margin-top:10%;
     margin-bottom:10%;
 }
-ul{
-    list-style: none;
+.resume_b{
+    perspective: 1000px;
+}
+.resume_b{
+    display: grid;
+    grid-gap: 20%;
+    grid-template-columns: 40% 40%;
+    transform-style: preserve-3d;
+}
+.resume_Block1{
+    padding: 10px;
+    box-shadow: 5px 10px 20px 2px red;
+    animation: blinkled 2s ease-in-out forwards infinite;
+}
+@keyframes blinkled{
+    0%{
+        box-shadow: 1px 1px 1px 1px red;
+    }
+    70%{
+        box-shadow: 5px 10px 20px 2px red;  
+    }
+    100%{
+        box-shadow: 1px 1px 1px 1px red;
+    }
+}
+.resume_Block2{
+    padding: 10px;
+    box-shadow: 5px 10px 20px 2px #726E97;
+    animation: blinkleds 2s ease-in-out forwards infinite;
+}
+@keyframes blinkleds{
+    0%{
+        box-shadow: 1px 1px 1px 1px #726E97;
+    }
+    70%{
+        box-shadow: 5px 10px 20px 2px #726E97;  
+    }
+    100%{
+        box-shadow: 1px 1px 1px 1px #726E97;
+    }
+}
+.resume_Block3{
+    padding: 10px;
+    box-shadow: 5px 10px 20px 2px #FECDAA;
+    animation: blinkledss 2s ease-in-out forwards infinite;
+}
+@keyframes blinkledss{
+    0%{
+        box-shadow: 1px 1px 1px 1px #FECDAA;
+    }
+    70%{
+        box-shadow: 5px 10px 20px 2px #FECDAA;  
+    }
+    100%{
+        box-shadow: 1px 1px 1px 1px #FECDAA;
+    }
+}
+.resume_Block4{
+    padding: 100px;
+    box-shadow: 5px 10px 20px 2px #06D6A0;
+    animation: blinkledsss 2s ease-in-out forwards infinite;
+}
+@keyframes blinkledsss{
+    0%{
+        box-shadow: 1px 1px 1px 1px #06D6A0;
+    }
+    70%{
+        box-shadow: 5px 10px 20px 2px #06D6A0;  
+    }
+    100%{
+        box-shadow: 1px 1px 1px 1px #06D6A0;
+    }
+}
+.resume_Block5{
+    padding: 100px;
+    box-shadow: 5px 10px 20px 2px red;
+    animation: blinkled 2s ease-in-out forwards infinite;
+}
+.resume_Block1_BM{
+    color: black;
+    display: block;
+}
+.resume_b:hover .resume_Block{
+    transform: rotateY(180deg)
+}
+.resume_Block1, .resume_Block1_BM{
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+
+.resume_Block2{
+    box-shadow: 5px 10px 20px 2px blue;
+}
+.resume_Block3{
+    box-shadow: 5px 10px 20px 2px greenyellow;
+}
+.resume_Block4{
+    box-shadow: 5px 10px 20px 2px black;
+}
+.resume_Block5{
+    box-shadow: 5px 10px 20px 2px burlywood;
 }
