@@ -8,7 +8,9 @@ const Topview = () => {
   return (
     <div className="topView">
       <RainEffect/>
+      <div className='par'>
       <Particles/>
+      </div>
     <div className='topView_Stuff'>
       <div className='topView_NameDiv'>
           <h1 className='topView_Name'>Agbaje Olayiowla</h1>

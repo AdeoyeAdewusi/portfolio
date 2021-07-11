@@ -17,7 +17,7 @@ export default function Models() {
          dpr={[1, 2]} 
          camera={{ position: [20, 0, 10], fov: 50 }}
          width='50vw'
-        style={{height:'650px'}}>
+        style={{height:'650px', backgroundColor:'#222'}}>
         <ambientLight intensity={0.1} />
         <spotLight intensity={3.5} angle={0.1} penumbra={3} position={[10, 15, 10]} castShadow />
         <Suspense fallback={null}>
