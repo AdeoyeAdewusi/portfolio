@@ -1,5 +1,6 @@
 import React from 'react'
 import { RainEffect } from 'react-background-animation'
+import Particles from "./dots";
 import ReactTypingEffect from 'react-typing-effect';
 import './style.css'
  
@@ -7,6 +8,8 @@ const Topview = () => {
   return (
     <div className="topView">
       <RainEffect/>
+      <Particles/>
+    <div className='topView_Stuff'>
       <div className='topView_NameDiv'>
           <h1 className='topView_Name'>Agbaje Olayiowla</h1>
       </div>
@@ -49,6 +52,7 @@ const Topview = () => {
     <div className='topView_Blend'>
         <p>Blender3D</p>
     </div>
+  </div>
     </div>
 </div>
   );

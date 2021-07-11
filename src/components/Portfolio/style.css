@@ -1,0 +1,9 @@
+.portfolio{
+    width: 45vw;
+    height: 45vh;
+    margin-left: 23px;
+}
+.Portfolio_3dDisplay{
+    display: flex;
+    justify-content: center;
+}

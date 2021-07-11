@@ -7,7 +7,6 @@ body {
   font-family: 'Roboto Slab', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: transparent url(assets/Hexagon\ \(1\).svg) 0 0 no-repeat padding-box;
   background-size: cover;
 }
 

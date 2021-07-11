@@ -1,10 +1,17 @@
 .topView{
-    width: 80%;
+    width: 100%;
     height: 100%;
+    background-color: #222;
 }
 .topView{
-    margin-left: 15%;
-    margin-top: 13%;
+    margin-left: 0%;
+    margin-top: 0%;
+}
+.topView_Stuff
+{
+    position: absolute;
+    top: 267px;
+    left: 258px;
 }
 .topView_Name{
     color: white;

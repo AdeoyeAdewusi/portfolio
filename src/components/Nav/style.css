@@ -4,6 +4,7 @@
     animation: anim 2s ease-in-out forwards;
     text-align: inline-flex;
     color: white;
+    background-color: #222;
 }
 #navLinks a{
     color: white;

@@ -1,29 +1,17 @@
 
 import './style.css'
-import React, { useState, useEffect, useRef } from 'react'
-import BIRDS from 'vanta/dist/vanta.net.min'
+import React from 'react'
+import { Models } from './3DModels';
 
 const Portfolio = () => {
-    const [vantaEffect, setVantaEffect] = useState(0)
-    const myRef = useRef(null)
-    useEffect(() => {
-      if (!vantaEffect) {
-        setVantaEffect(BIRDS({
-          el: myRef.current
-        }))
-      }
-      return () => {
-        if (vantaEffect) vantaEffect.destroy()
-      }
-    }, [vantaEffect])
     return (
+    <div id="Portfolio" className='portfolio'>
     <div>
-     <div>
-        <div ref={myRef}>
-        </div>
-    </div>
-    <div>
+      <Models/>
 
+    </div>
+    <div className='Portfolio_3dDisplay'>
+      <h3>3D Models Display</h3>
     </div>
     </div>
     )

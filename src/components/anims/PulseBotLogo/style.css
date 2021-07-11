@@ -1,0 +1,129 @@
+#pulsebot_Head path:nth-child(1){
+    animation: pulseAnim 2s ease-in-out forwards infinite;
+}
+#pulsebot_Head path:nth-child(12){
+    animation: pulseAnimssssssss 2.5s ease-in-out forwards ;
+    fill: white;
+}
+#pulsebot_Head path:nth-child(13){
+    animation: pulseAnimsssssss 2.3s ease-in-out forwards ;
+    fill: white;
+}
+#pulsebot_Head path:nth-child(14){
+    animation: pulseAnimssssss 2.1s ease-in-out forwards ;
+    fill: white;
+}
+#pulsebot_Head path:nth-child(15){
+    animation: pulseAnimsssss 1.9s ease-in-out forwards ;
+    fill: white;
+}
+#pulsebot_Head path:nth-child(16){
+    animation: pulseAnimssss 1.6s ease-in-out forwards ;
+    fill: white;
+}
+#pulsebot_Head path:nth-child(17){
+    animation: pulseAnimsss 1.3s ease-in-out forwards ;
+    fill: white;
+}
+#pulsebot_Head path:nth-child(18){
+    animation: pulseAnimss 0.8s ease-in-out forwards ;
+    fill: white;
+}
+#pulsebot_Head path:nth-child(19){
+    animation: pulseAnims 0.5s ease-in-out forwards ;
+    fill: white;
+    z-index: 0;
+}
+@keyframes pulseAnim{
+0%{
+filter: drop-shadow( 0px 0px 0px #ff5252);
+}
+70%{
+filter: drop-shadow( 0px 0px 2px #ff5252);
+}
+100%{
+filter: drop-shadow( 0px 0px 0px #ff5252);
+}
+}
+@keyframes pulseAnims{
+0%{
+transform: translate(-56px, 0px);
+opacity:0;
+}
+100%{
+transform: translate(0px, 0px);
+opacity:1;
+}
+}
+@keyframes pulseAnimss{
+0%{
+transform: translate(-50px, 0px);
+opacity:0;
+}
+100%{
+transform: translate(0px, 0px);
+opacity:1;
+}
+}
+@keyframes pulseAnimsss{
+0%{
+transform: translate(-42px, 0px);
+opacity:0;
+}
+100%{
+transform: translate(0px, 0px);
+opacity:1;
+}
+}
+@keyframes pulseAnimssss{
+0%{
+transform: translate(-36px, 0px);
+opacity:0;
+}
+100%{
+transform: translate(0px, 0px);
+opacity:1;
+}
+}
+@keyframes pulseAnimsssss{
+0%{
+transform: translate(-28px, 0px);
+opacity:0;
+}
+100%{
+transform: translate(0px, 0px);
+opacity:1;		
+}
+}
+@keyframes pulseAnimssssss{
+0%{
+transform: translate(-22px, 0px);
+opacity:0;
+}
+100%{
+transform: translate(0px, 0px);
+opacity:1;
+}
+}
+@keyframes pulseAnimsssssss{
+0%{
+transform: translate(-16px, 0px);
+opacity:0;
+}
+100%{
+transform: translate(0px, 0px);
+opacity:1;
+}
+}
+@keyframes pulseAnimssssssss{
+0%{
+transform: translate(-8px, 0px);
+opacity:0;
+
+}
+100%{
+transform: translate(0px, 0px);
+opacity:1;
+
+}
+}
