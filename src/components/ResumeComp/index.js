@@ -63,11 +63,28 @@ const Resume = () => {
                 FREELANCE FRONT END DEVELOPER 01/2017 to 03/2019
                 Self Employed Web | Lagos, Lagos, Nigeria
             </div>
-            <div className="resume_Block5">
-                FRONT END DEVELOPER 01/2018 to 11/2018
-                SCALEHIVE.COM - Yaba Lagos | Lagos, LALagos, Nigeria
+
             </div>
+
+
+<div className='resume_T'>
+            <div className='resume_Technologies'>
+                <h2>Technologies</h2>
             </div>
+            <div className='resume_TechList'>
+            <ul className='resume_TechUl1'>
+                <li>Semantic HTML</li>
+                <li>JSX</li>
+                <li>ReactJs</li>
+            </ul>
+            <ul className='resume_TechUl2'>
+                <li>NodeJs</li>
+                <li>PHP</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+            </div>
+</div>
         </div>
     )
 }

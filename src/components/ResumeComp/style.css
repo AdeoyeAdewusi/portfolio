@@ -1,18 +1,15 @@
 .Resume{
     width: 80%;
-    height: 137vh;
+    height: 100%;
     margin-left: 10%;
-    margin-top:10%;
+    margin-top:1%;
     margin-bottom:10%;
 }
 .resume_b{
-    perspective: 1000px;
-}
-.resume_b{
     display: grid;
-    grid-gap: 20%;
+    grid-column-gap: 20%;
+    grid-row-gap:20px;
     grid-template-columns: 40% 40%;
-    transform-style: preserve-3d;
 }
 .resume_Block1{
     padding: 10px;
@@ -83,29 +80,16 @@
     box-shadow: 5px 10px 20px 2px red;
     animation: blinkled 2s ease-in-out forwards infinite;
 }
-.resume_Block1_BM{
-    color: black;
-    display: block;
+.resume_Technologies{
+    text-align: center;
 }
-.resume_b:hover .resume_Block{
-    transform: rotateY(180deg)
+.resume_TechList{
+    display: grid;
+    grid-template-columns: 40% 40%;
 }
-.resume_Block1, .resume_Block1_BM{
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
+.resume_TechUl1{
+    margin-left: 100px;
 }
-
-
-.resume_Block2{
-    box-shadow: 5px 10px 20px 2px blue;
-}
-.resume_Block3{
-    box-shadow: 5px 10px 20px 2px greenyellow;
-}
-.resume_Block4{
-    box-shadow: 5px 10px 20px 2px black;
-}
-.resume_Block5{
-    box-shadow: 5px 10px 20px 2px burlywood;
+.resume_TechUl2{
+    margin-left: 92%;
 }

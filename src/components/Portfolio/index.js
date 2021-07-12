@@ -8,9 +8,6 @@ const Portfolio = () => {
     <div>
 
     </div>
-    <div className='Portfolio_3dDisplay'>
-      <h3>3D Models Display</h3>
-    </div>
     </div>
     )
 }
