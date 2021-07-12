@@ -1,0 +1,23 @@
+.contact{
+    display: flex;
+    justify-content: center;
+    background-color: #222;
+    padding: 38px;
+}
+.contact_form{
+    position: absolute;
+}
+.contact_email input{
+padding: 10px;
+width:300px;
+}
+.contact_name input{
+padding: 10px;
+margin-top: 10px;
+width:300px;
+}
+.contact_message textarea{
+    padding:10px;
+    margin-top: 10px;
+    width:300px;
+}

@@ -1,5 +1,5 @@
 .top{
-    background-color: #DAB49D;
+    background-color: #191919;
     opacity: 0.97;
     position: absolute;
     top:0%;
@@ -11,7 +11,7 @@
     position: fixed;
 }
 .remove{
-  animation: toprem ease-in-out forwards 10.4s;
+  animation: toprem ease-in-out forwards 5.4s;
 }
 @keyframes toprem{
   0% {

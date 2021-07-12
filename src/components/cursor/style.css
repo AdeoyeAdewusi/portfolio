@@ -16,11 +16,11 @@ z-index: 1;
 .cursor{
   width: 8px;
   height: 8px;
-  background-color: #5E3023;
+  background-color:#747578;
 }
 .cursor-outline{
   width: 40px;
   height: 40px;
   opacity: 0;
-  background-color:#C08552;
+  background-color:#D6DBD2;
 }
