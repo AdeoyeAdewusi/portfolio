@@ -37,8 +37,8 @@ import '../cursor/style.css'
 
   const toggleCursorVisibility = () =>{
     if(cursorVisible.current){
-      dot.current.style.opacity = 1;
-      dotOutline.current.style.opacity = 1;
+      dot.current.style.opacity = 0.6;
+      dotOutline.current.style.opacity = 0.6;
 
     }else{
       dot.current.style.opacity = 0;

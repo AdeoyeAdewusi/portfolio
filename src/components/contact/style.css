@@ -21,3 +21,9 @@ width:300px;
     margin-top: 10px;
     width:300px;
 }
+.contact_Submit input{
+    width: 320px;
+    padding: 10px;
+    border:none;
+    background-color: #FDFFFC;
+}
