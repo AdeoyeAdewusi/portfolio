@@ -1,6 +1,6 @@
 import React from 'react'
 import './style.css'
-import sidePic from '../../assets/IMG_0133-removebg-preview.png'
+import sidePic from '../../assets/FullSizeRender-104-removebg-preview.png'
 
 const Aboutcomp = () => {
     return (
