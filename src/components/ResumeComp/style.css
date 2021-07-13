@@ -28,57 +28,55 @@
     }
 }
 .resume_Block2{
-    padding: 10px;
+    padding: 17px;
     box-shadow: 5px 10px 20px 2px #726E97;
     animation: blinkleds 2s ease-in-out forwards infinite;
+    border-radius: 14px;
 }
 @keyframes blinkleds{
     0%{
-        box-shadow: 1px 1px 1px 1px #726E97;
+        box-shadow: 1px 1px 1px 1px #222;
     }
     70%{
-        box-shadow: 5px 10px 20px 2px #726E97;  
+        box-shadow: 5px 10px 20px 2px #222;  
     }
     100%{
-        box-shadow: 1px 1px 1px 1px #726E97;
+        box-shadow: 1px 1px 1px 1px #222;
     }
 }
 .resume_Block3{
-    padding: 10px;
+    padding: 17px;
     box-shadow: 5px 10px 20px 2px #FECDAA;
     animation: blinkledss 2s ease-in-out forwards infinite;
+    border-radius: 14px;
 }
 @keyframes blinkledss{
     0%{
-        box-shadow: 1px 1px 1px 1px #FECDAA;
+        box-shadow: 1px 1px 1px 1px #222;
     }
     70%{
-        box-shadow: 5px 10px 20px 2px #FECDAA;  
+        box-shadow: 5px 10px 20px 2px #222;  
     }
     100%{
-        box-shadow: 1px 1px 1px 1px #FECDAA;
+        box-shadow: 1px 1px 1px 1px #222;
     }
 }
 .resume_Block4{
     padding: 100px;
     box-shadow: 5px 10px 20px 2px #06D6A0;
     animation: blinkledsss 2s ease-in-out forwards infinite;
+    border-radius: 14px;
 }
 @keyframes blinkledsss{
     0%{
-        box-shadow: 1px 1px 1px 1px #06D6A0;
+        box-shadow: 1px 1px 1px 1px #222;
     }
     70%{
-        box-shadow: 5px 10px 20px 2px #06D6A0;  
+        box-shadow: 5px 10px 20px 2px #222;  
     }
     100%{
-        box-shadow: 1px 1px 1px 1px #06D6A0;
+        box-shadow: 1px 1px 1px 1px #222;
     }
-}
-.resume_Block5{
-    padding: 100px;
-    box-shadow: 5px 10px 20px 2px red;
-    animation: blinkled 2s ease-in-out forwards infinite;
 }
 .resume_Technologies{
     text-align: center;
