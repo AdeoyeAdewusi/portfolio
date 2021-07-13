@@ -3,7 +3,7 @@
     height: 100%;
     margin-left: 10%;
     margin-top:1%;
-    margin-bottom:10%;
+    margin-bottom:0%;
 }
 .resume_b{
     display: grid;
@@ -12,19 +12,19 @@
     grid-template-columns: 40% 40%;
 }
 .resume_Block1{
-    padding: 10px;
-    box-shadow: 5px 10px 20px 2px red;
+    padding: 17px;
     animation: blinkled 2s ease-in-out forwards infinite;
+    border-radius: 14px;
 }
 @keyframes blinkled{
     0%{
-        box-shadow: 1px 1px 1px 1px red;
+        box-shadow: 1px 1px 1px 1px #222;
     }
     70%{
-        box-shadow: 5px 10px 20px 2px red;  
+        box-shadow: 5px 10px 20px 2px #222;  
     }
     100%{
-        box-shadow: 1px 1px 1px 1px red;
+        box-shadow: 1px 1px 1px 1px #222;
     }
 }
 .resume_Block2{

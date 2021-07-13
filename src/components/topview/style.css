@@ -28,7 +28,7 @@
     color: white;
 }
 .topView_Htmlcss{
- background-color: #279AF1;
+ background-color: #222;
  padding-left: 20px;
  padding-right: 20px;
  padding-top: 2%;
@@ -39,7 +39,7 @@
  
 }
 .topView_React{
-    background-color: #93A3BC;
+    background-color: #222;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 2%;
@@ -49,7 +49,7 @@
     box-shadow: 3px 3px 0 #CCDDE2, 2px 2px 0 #CCDDE2, 1px 1px 0 #CCDDE2;
 }
 .topView_Php{
-    background-color: #FECDAA;
+    background-color: #222;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 2%;
@@ -59,7 +59,7 @@
     box-shadow: 3px 3px 0 #DEC3BE, 2px 2px 0 #DEC3BE, 1px 1px 0 #DEC3BE;
 }
 .topView_FM{
-    background-color: #A44200;
+    background-color: #222;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 2%;
@@ -69,7 +69,7 @@
     box-shadow: 3px 3px 0 #D58936, 2px 2px 0 #D58936, 1px 1px 0 #D58936;
 }
 .topView_Git{
-    background-color:#07020D;
+    background-color:#222;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 2%;
@@ -79,7 +79,7 @@
     box-shadow: 3px 3px 0 #F1F2F6, 2px 2px 0 #F1F2F6, 1px 1px 0 #F1F2F6;
 }
 .topView_Blend{
-    background-color:#FF8600;
+    background-color:#222;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 2%;
