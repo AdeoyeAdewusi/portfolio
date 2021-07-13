@@ -6,9 +6,11 @@ const Resume = () => {
         <div className='Resume' id="Resume">
         <div className='resume_b'>
             <div className="resume_Block1">
+            <div className="resume_Block1Head">
                 WEB DEVELOPER 01/2018 to CURRENT
                 SELF – Yaba Lagos | Lagos, LA
                 Major Benchmarks:.
+            </div>
                 <div className='resume_Block1_BM'>
                 <ul>
                     <li>Built and deployed Instagram clone using ReactJs and firebase,.</li>
