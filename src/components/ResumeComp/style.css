@@ -111,3 +111,123 @@
 .resume_TechUl2{
     margin-left: 92%;
 }
+@media only screen and (min-width: 150px) and (max-width: 750px){
+    .Resume{
+        width: 80%;
+        height: 100%;
+        margin-left: 10%;
+        margin-top:1%;
+        margin-bottom:0%;
+        padding-top: 10px;
+        padding: 5px;
+    }
+    .resume_b{
+        display: block;
+        grid-column-gap: 20%;
+        grid-row-gap:20px;
+        grid-template-columns: 40% 40%;
+    }
+    .resume_Block1{
+        padding: 17px;
+        animation: blinkled 2s ease-in-out forwards infinite;
+        border-radius: 14px;
+        transition: transform .2s;
+        margin-top: 40px;
+    }
+    .resume_Block1Head{
+        font-weight: 20px;
+    }
+    .resume_Block1:hover{
+        transform: scale(1.1);
+    }
+    @keyframes blinkled{
+        0%{
+            box-shadow: 1px 1px 1px 1px #222;
+        }
+        70%{
+            box-shadow: 5px 10px 20px 2px #222;  
+        }
+        100%{
+            box-shadow: 1px 1px 1px 1px #222;
+        }
+    }
+    .resume_Block2{
+        padding: 17px;
+        box-shadow: 5px 10px 20px 2px #726E97;
+        animation: blinkleds 2s ease-in-out forwards infinite;
+        border-radius: 14px;
+        transition: transform .2s;
+        margin-top: 40px;
+    }
+    .resume_Block2:hover{
+        transform: scale(1.1);
+    }
+    @keyframes blinkleds{
+        0%{
+            box-shadow: 1px 1px 1px 1px #222;
+        }
+        70%{
+            box-shadow: 5px 10px 20px 2px #222;  
+        }
+        100%{
+            box-shadow: 1px 1px 1px 1px #222;
+        }
+    }
+    .resume_Block3{
+        padding: 17px;
+        box-shadow: 5px 10px 20px 2px #FECDAA;
+        animation: blinkledss 2s ease-in-out forwards infinite;
+        border-radius: 14px;
+        transition: transform .2s;
+        margin-top: 40px;
+    }
+    .resume_Block3:hover{
+        transform: scale(1.1);
+    }
+    @keyframes blinkledss{
+        0%{
+            box-shadow: 1px 1px 1px 1px #222;
+        }
+        70%{
+            box-shadow: 5px 10px 20px 2px #222;  
+        }
+        100%{
+            box-shadow: 1px 1px 1px 1px #222;
+        }
+    }
+    .resume_Block4{
+        padding: 100px;
+        box-shadow: 5px 10px 20px 2px #06D6A0;
+        animation: blinkledsss 2s ease-in-out forwards infinite;
+        border-radius: 14px;
+        transition: transform .2s;
+        margin-top: 40px;
+    }
+    .resume_Block4:hover{
+        transform: scale(1.1);
+    }
+    @keyframes blinkledsss{
+        0%{
+            box-shadow: 1px 1px 1px 1px #222;
+        }
+        70%{
+            box-shadow: 5px 10px 20px 2px #222;  
+        }
+        100%{
+            box-shadow: 1px 1px 1px 1px #222;
+        }
+    }
+    .resume_Technologies{
+        text-align: center;
+    }
+    .resume_TechList{
+        display: grid;
+        margin-left: 57px;
+    }
+    .resume_TechUl1{
+        margin-left: 0px;
+    }
+    .resume_TechUl2{
+        margin-left: 0%;
+    }
+}

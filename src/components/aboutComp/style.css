@@ -13,3 +13,21 @@
 .aboutComp_abs{
     margin-top: 14%;
 }
+@media only screen and (min-width: 150px) and (max-width: 750px){
+    .aboutComp{
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom:0px;
+        bottom:0px;
+        padding-bottom: 20px;
+        height: auto;
+        background-color: white;
+        grid-template-columns: 40% 40%;
+        grid-gap: 5%;
+        display: block;
+    }
+    .aboutComp_abs{
+        margin-top: 14%;
+        padding: 20px;
+    }   
+}
