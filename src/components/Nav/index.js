@@ -1,6 +1,5 @@
 import React, {useState, useEffect} from 'react';
 import './style.css'
-import { slide as Menu } from 'react-burger-menu'
 
 
 const Nav = () => {
