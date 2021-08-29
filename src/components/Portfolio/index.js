@@ -5,9 +5,15 @@ import React from 'react'
 const Portfolio = () => {
     return (
     <div id="Portfolio" className='portfolio'>
-    <div>
-        
-    </div>
+        <div  className='portfolio_Grid'>
+            <div>
+            
+            </div>
+            <div></div>
+            <div></div>
+            <div></div>
+            
+        </div>
     </div>
     )
 }

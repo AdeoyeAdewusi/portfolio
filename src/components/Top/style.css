@@ -289,32 +289,29 @@
   animation: swipes 2s ease-in-out forwards 1.5s infinite;
 }
 @keyframes swipes{
-  0% {
-    opacity: 0;
-    transform: translate(0px, 0px)
 
-      }
+0% {
+   transform: translate(0px, 0px)
+     }
 50%{
-    opacity: 1;
-    transform: translate(0px, -100px)
+   transform: translate(0px, -100px)
 }
 100%{
-  opacity: 0;
+ opacity: 0;
 }
-
-
 }
 @keyframes swipe{
   0% {
-   opacity: 0;
-    transform: translate(0px, 0px)
+    transform: translate(0px, 0px);
+    filter: drop-shadow(0 0 0.75rem crimson);
       }
 50%{
-    opacity: 1;
-    transform: translate(0px, -100px)
+    transform: translate(0px, -100px);
+    filter: drop-shadow(0 0 7rem crimson);
 }
 100%{
-  opacity: 0;
+  transform: translate(0px, 0px);
+  filter: drop-shadow(0 0 0.75rem crimson);
 }
 }
 }

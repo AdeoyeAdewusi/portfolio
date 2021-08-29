@@ -34,7 +34,7 @@ const Contact = () => {
         <Particles/>
             <form className='contact_form'>
                 <div  className='contact_email'>
-                    <input type='text' placeholder='Email' onChange  ={e => setEmail({message: e.target.value})}/>
+                    <input type='text' placeholder='Email' />
                 </div>
                 <div className='contact_name'>
                     <input type='text' placeholder='Name' onChange  ={e => setName({message: e.target.value})}/>
