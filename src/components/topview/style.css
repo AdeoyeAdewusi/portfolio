@@ -32,6 +32,24 @@
     border-radius: 20px;
     box-shadow: 3px 3px 0 #CCDDE2, 2px 2px 0 #CCDDE2, 1px 1px 0 #CCDDE2;
 }
+.contscts{
+    display: flex;
+    padding-top: 30px;
+    justify-content: center;
+}
+.linkedin{
+    fill: white;
+    stroke: white;
+    margin-left: 20px;
+}
+.mh2{
+    display: flex;
+    justify-content: center;
+}
+.gitH{
+    fill: white;
+    stroke: white;   
+}
 .topView_Skills{
     display: flex;
     width: 0%;
