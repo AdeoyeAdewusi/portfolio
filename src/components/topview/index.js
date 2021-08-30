@@ -42,6 +42,12 @@ const Topview = () => {
     <div className='topView_React'>
         <p>ReactJs</p>
     </div>
+    <div className='topView_React'>
+        <p>NextJs</p>
+    </div>
+    <div className='topView_ReactN'>
+        <p>React Native</p>
+    </div>
     <div className='topView_Php'>
         <p>PHP</p>
     </div>
