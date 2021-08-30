@@ -24,8 +24,8 @@
 }
 .topView_ReactN{
     background-color: #222;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
     padding-top: 2%;
     padding-bottom: 2%;
     margin-left: 20px;
@@ -132,7 +132,7 @@
     .topView_Stuff
     {
         position: absolute;
-        top: 167px;
+        top: 127px;
         left: 58px;
     }
     .topView_Name{
