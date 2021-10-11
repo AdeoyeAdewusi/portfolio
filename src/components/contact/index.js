@@ -11,7 +11,7 @@ const Contact = () => {
   const [mailSent, setMailSent] = useState()
 
 
-  const API_PATH = 'http://localhost/api/contact/index.php';
+  const API_PATH = 'https://agbajeolayiwola.netlify.app/api/contact/index.php';
 
   const handleSubmit = (e) => {
     e.preventDefault();
