@@ -11,7 +11,7 @@ const Contact = () => {
   const [mailSent, setMailSent] = useState()
 
 
-  const API_PATH = '/api/contact/index.php';
+  const API_PATH = 'http://localhost/api/contact/index.php';
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -21,13 +21,8 @@ const Contact = () => {
       headers: { 'content-type': 'application/json' },
       data: message, email, name,
     })
-      .then(result => {
-            {
-                setMailSent(result.data.sent)
-        }
-      })
-      .catch(error => setMessage({ error: error.message }));
-  };
+    setMailSent(true);
+}
 
 
 
@@ -60,6 +55,9 @@ const Contact = () => {
                 <div className='contact_Submit'>
                     <input onClick={handleSubmit} type='submit' value='Submit'/> 
                 </div>
+                {mailSent  &&
+                    <div>Thank you for contcting us.</div>
+                }
             </form>
         </div>
     )
