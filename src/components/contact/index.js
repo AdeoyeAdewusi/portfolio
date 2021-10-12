@@ -15,7 +15,7 @@ const Contact = () => {
     e.preventDefault();
     axios({
       method: "get",
-      url:  'api/contact/index.php',
+      url:  'http://localhost:80/api/contact/index.php',
       headers: { "content-type": "application/json" },
       data: email, name, message,
     })
@@ -25,6 +25,7 @@ const Contact = () => {
           setError(false)
         } else {
           setError(true)
+          console.log('didint send')
         }
       })
       .catch(error => setError( error.message ));

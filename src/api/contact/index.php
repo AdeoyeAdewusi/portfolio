@@ -1,7 +1,7 @@
 <?php
 header("Access-Control-Allow-Origin: *");
 $rest_json = file_get_contents("php://input");
-$_POST = json_decode($rest_json, true);
+$_GET = json_decode($rest_json, true);
 
 if (empty($_GET['name']) && empty($_GET['email'])) die();
 
