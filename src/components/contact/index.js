@@ -15,7 +15,7 @@ const Contact = () => {
     e.preventDefault();
     axios({
       method: "get",
-      url:  'https://agbajeolayiwola.netlify.app/api/contact/index.php',
+      url:  'api/contact/index.php',
       headers: { "content-type": "application/json" },
       data: email, name, message,
     })
