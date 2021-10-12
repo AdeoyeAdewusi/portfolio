@@ -14,7 +14,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios({
-      method: "post",
+      method: "get",
       url:  'https://agbajeolayiwola.netlify.app/api/contact/index.php',
       headers: { "content-type": "application/json" },
       data: email, name, message,
@@ -29,7 +29,7 @@ const Contact = () => {
       })
       .catch(error => setError( error.message ));
 }
-
+console.log(email)
 
 
     return (
