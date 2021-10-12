@@ -21,6 +21,9 @@ const Contact = () => {
       headers: { 'content-type': 'application/json' },
       data: message, email, name,
     })
+    .then(result => {
+      setMailSent(result.data.sent)
+      })
     setMailSent(true);
 }
 
