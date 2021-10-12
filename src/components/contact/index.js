@@ -9,22 +9,25 @@ const Contact = () => {
   const [name, setName] = useState('')
   const [message, setMessage] = useState('')
   const [mailSent, setMailSent] = useState()
-
-
-  const API_PATH = 'https://agbajeolayiwola.netlify.app/api/contact/index.php';
+  const [error, setError] = useState(null);
 
   const handleSubmit = (e) => {
     e.preventDefault();
     axios({
-      method: 'get',
-      url: `${API_PATH}`,
-      headers: { 'content-type': 'application/json' },
-      data: message, email, name,
+      method: "post",
+      url:  'https://agbajeolayiwola.netlify.app/api/contact/index.php',
+      headers: { "content-type": "application/json" },
+      data: email, name, message,
     })
-    .then(result => {
-      setMailSent(result.data.sent)
+      .then(result => {
+        if (result.data.sent) {
+          setMailSent(result.data.sent)
+          setError(false)
+        } else {
+          setError(true)
+        }
       })
-    setMailSent(true);
+      .catch(error => setError( error.message ));
 }
 
 
@@ -61,6 +64,7 @@ const Contact = () => {
                 {mailSent  &&
                     <div>Thank you for contcting us.</div>
                 }
+                {error && <div className="error">Nop</div>}
             </form>
         </div>
     )
