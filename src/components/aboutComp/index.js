@@ -4,7 +4,11 @@ import sidePic from '../../assets/FullSizeRender-104-removebg-preview.png'
 
 const Aboutcomp = () => {
     return (
-        <div className='aboutComp' id='About'>
+        <div id='About'>
+            <div className='abputme'>
+                <h2>About Me</h2>
+            </div>
+        <div  className='aboutComp' >
         <div className='aboutComp_img'>
             <img 
             alt='agbaje olayiwola' 
@@ -15,6 +19,7 @@ const Aboutcomp = () => {
            I am a<strong> FULL STACK WEB DEVELOPER A Dynamic,</strong> in Lagos, Nigeria i specialize in front end development using
            HTML, CSS and javascript , i focus on learning new technologies and being up to date on all the latest frameworks.
         </p>
+    </div>
     </div>
 
         </div>

@@ -1,19 +1,14 @@
 .portfolio{
     width: 100%;
-    height: 110vh;
-    justify-content: center;
-    margin-left: 23px;
 }
 .portfolio_Grid{
-    display: grid;
-    padding-left: 173px;
     align-items: center;
+    margin-top: 80px;
     text-align: center;
-    /* display: flex; */
-    /* justify-content: space-between; */
+    display: flex; 
+    justify-content: space-between; 
     grid-template-columns: 37% 36%;
-    grid-gap: 8%;
-    margin-top: 0px;
+    margin-bottom: 20px;
 }
 .portfoioImg{
     width: 80%;
@@ -34,6 +29,14 @@
 .portfolio_heading{
     display: flex;
     justify-content: center;
+    background-color: #000;
+    width: 50%;
+    margin-left: 25%;
+    color: white;
+    border-radius: 80px 0px 80px 0px;
+    background-image: radial-gradient(circle at top right, rgba(121, 68, 154, 0.13),       transparent),
+    radial-gradient(circle at 20% 80%, rgba(41, 196, 255, 0.13), transparent);
+   
 }
 @media only screen and (min-width: 150px) and (max-width: 750px){
     .portfolio{
