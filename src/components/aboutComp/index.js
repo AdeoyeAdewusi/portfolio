@@ -16,8 +16,14 @@ const Aboutcomp = () => {
         </div>
     <div className='aboutComp_ab'>
         <p className='aboutComp_abs'>
-           I am a<strong> FULL STACK WEB DEVELOPER A Dynamic,</strong> in Lagos, Nigeria i specialize in front end development using
-           HTML, CSS and javascript , i focus on learning new technologies and being up to date on all the latest frameworks.
+           I am a<strong> FULL STACK WEB DEVELOPER A Dynamic,</strong> in Lagos, Nigeria i 
+           specialize in front end development using
+           HTML, CSS and javascript , i focus on learning new technologies 
+           and being up to date on all the latest frameworks, 
+           with experience in building websites that are responsive for all screens.
+            Excellent communicator and effective team player . 
+           I'm a problem solver and a critical thinker with the abilities to brainstorm with teammates and 
+           proffer solutions to design concepts and ideas for projects.
         </p>
     </div>
     </div>
