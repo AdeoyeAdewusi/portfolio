@@ -10,7 +10,7 @@ const Aboutcomp = () => {
       </div>
       <div className="aboutComp">
         <div className="aboutComp_img">
-          <img alt="Adewusi  Adeoye " src={sidePic} />
+          <img alt="Adewusi  Adeoye " src={sidePic} width="503px" />
         </div>
         <div className="aboutComp_ab">
           <p className="aboutComp_abs">
