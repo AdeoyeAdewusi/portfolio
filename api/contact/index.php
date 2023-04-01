@@ -1,43 +1,40 @@
 <?php
-header("Access-Control-Allow-Origin: *");
-$rest_json = file_get_contents("php://input");
+header('Access-Control-Allow-Origin: *');
+$rest_json = file_get_contents('php://input');
 $_POST = json_decode($rest_json, true);
 
-if (empty($_GET['name']) && empty($_GET['email'])) die();
+if (empty($_GET['name']) && empty($_GET['email'])) {
+    die();
+}
 
-if ($_GET)
-	{
+if ($_GET) {
+    // set response code - 200 OK
 
-	// set response code - 200 OK
+    http_response_code(200);
+    $subject = $_GET['name'];
+    $to = 'Adewusi olaiwola@gmail.com';
+    $from = $_GET['email'];
 
-	http_response_code(200);
-	$subject = $_GET['name'];
-	$to = "agbajeolaiwola@gmail.com";
-	$from = $_GET['email'];
+    // data
 
-	// data
+    $msg = $_GET['message'];
 
-	$msg = $_GET['message'];
+    // Headers
 
-	// Headers
+    $headers = "MIME-Version: 1.0\r\n";
+    $headers .= "Content-type: text/html; charset=UTF-8\r\n";
+    $headers .= 'From: <' . $from . '>';
+    mail($to, $subject, $msg, $headers);
 
-	$headers = "MIME-Version: 1.0\r\n";
-	$headers.= "Content-type: text/html; charset=UTF-8\r\n";
-	$headers.= "From: <" . $from . ">";
-	mail($to, $subject, $msg, $headers);
+    // echo json_encode( $_POST );
 
-	// echo json_encode( $_POST );
+    echojson_encode([
+        'sent' => true,
+    ]);
+} else {
+    // tell the user about error
 
-	echojson_encode(array(
-		"sent" => true
-	));
-	}
-  else
-	{
-
-	// tell the user about error
-
-	echojson_encode(["sent" => false, "message" => "Something went wrong"]);
-	}
+    echojson_encode(['sent' => false, 'message' => 'Something went wrong']);
+}
 
 ?>
