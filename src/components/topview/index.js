@@ -14,7 +14,7 @@ const Topview = () => {
       </div>
       <div className="topView_Stuff">
         <div className="topView_NameDiv">
-          <h1 className="topView_Name">Adewusi Olayiowla</h1>
+          <h1 className="topView_Name">Adewusi Adeoye</h1>
         </div>
 
         <ReactTypingEffect

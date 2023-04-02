@@ -14,7 +14,7 @@ const Aboutcomp = () => {
         </div>
         <div className="aboutComp_ab">
           <p className="aboutComp_abs">
-            am a<strong> FULL STACK WEB DEVELOPER </strong>
+            I am a<strong> FULL STACK WEB DEVELOPER </strong>
             with over 5years experience. I specialize in front end development
             using HTML, CSS, JavaScript and related technologies. I focus on
             learning new technologies and being up to date on all the latest
