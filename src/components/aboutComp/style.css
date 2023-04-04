@@ -12,6 +12,10 @@
     align-items: center;
     background-color: white;
 }
+.name{
+    font-size: 120px;
+    font-weight: 600;
+}
 .abputme{
     background-color: #000;
     display: flex;

@@ -15,6 +15,73 @@ const Resume = () => {
       })
     })
   }
+  const data = [
+    {
+      title: ' FRONT END DEVELOPER',
+      date: '01/2022 to 06/2023 ',
+      place: 'CODEMANIA | Lagos, LA',
+      joblist: [
+        'Developed the architecture for an SME (small and medium enterprise) Web app finance app which was 100% sclalable.',
+        'Engineered the redux architecture for scalability using redux toolkit for Nextjs wich made working with global state 100% easier.',
+        ' Efficiently intigerated the front end with the backend api.',
+        'Made development more streamlined by making highly reusable components and global styling for common element such as buttons and inputs, increasing product development time by 60%.',
+        'Integrated several JSON files into the front end such as Nigerian states and local govermments for location inputs.',
+        'Integrated a liveness test which checks if the person registering on the app is a real person and facematch which checks if the image taken from the liveness test and matches the image attached to the users documents such as NIN and BVN (bank verification number), using a third party SDK this increased security on the app by 80%.',
+        'Expertly used React-Hook-Forms and Regex for form validations, hookforms was used to reduce the amlount of rerenders on the app, increasing efficiency by 70%.',
+        'Used Framer motion to make the app more visually pleasing by animating several sections of the app and page transitions.',
+        'Integrated chartjs to better visualize financial data for the user.',
+        'Efficiently integrated UI/UX designs from figma into fully working web application.',
+        'Solved several logical problems which includes unique problems which arises from using nextjs which uses server side rendering.',
+        'Made a password encryption function and a higher order component to protect routes that can only be accessed when the user is logged in.',
+      ],
+    },
+    {
+      title: 'WEB DEVELOPER',
+      date: '01/2018 to CURRENT SELF',
+      place: 'Yaba Lagos | Lagos, LA',
+      joblist: [
+        'Formulated a template page which used a kind of pseudo database on the frontend to render views for the user, this helped the page load faster and give the end user a more seamless experience',
+        'Situated the web app on both netlify and vercel to allow client to easily monitor the progress of the project.',
+        'Streamlined the styling process by making use of css global variable and styled compoenets on a side project for the senior front end engineer.',
+        'Worked cloasely with a senior software engineer to get new pages/products tested and working and addressed any issues with 48 hours.',
+        'Leveraged Knowledge nd experience to debug multiple reactjs compoenents and performed end-to-end testing using the Jest testing library.',
+        'Implemented several svg animations and microinteractions using both pure css and the Frammer Motion library for reactjs and nextjs.',
+        'Efficiently deployed PWA (Progressive Web App).',
+        'PWAs(Progressive Web App). https://github.com/AdewusiAdeoye',
+        'Created Web Page with intractable 3D objects using ThreeJs.',
+        'Integrated firebase firestore database ina web app.',
+        'Deployed web app efficiently on firebase network.',
+      ],
+    },
+    {
+      title: ' WEB DEVELOPER  TRONICLAB',
+      date: '01/2018 to CURRENT',
+      place: 'Yaba Lagos | Lagos, LA',
+      joblist: [
+        'Leveraged web development practice experience and comprehensive  knowledge to professionally assemble, install, test, and build website from start to finish.',
+        'Influenced customer satisfaction score by Integrating website for mobile.',
+        ' Mounted strategies for the on-page search engine optimization.',
+        ' Paved way for the website to be ranked high on google search.',
+        'Created Web Page with intractable 3D objects using ThreeJs.',
+        'Solicited to design 3D models.',
+        ' Designed developed and coded earlier versions of website which had a database of comments, users, and posts.',
+        'Regularly update website and add new pages.',
+        'Handpicked to build website commercial section from scratch to finished product (ongoing project).',
+        'Currently implementing payment gateway for Lampix Smart Projector.',
+      ],
+    },
+    {
+      title: ' FULL STACK WEB DEVELOPER ',
+      date: '01/2018 to 06/2019 ',
+      place: 'EASYTRANSPORT.COM.NG | Lagos, LA',
+      joblist: [
+        'Charged with design of company logo.',
+        'Built Company website from scratch using HTML CSS JavaScript and Jquery;.',
+        ' Enhanced quality outcomes by building company contact form using PHP to connect between Cpanel email and website contact form.',
+        'Aligned organization for growth by increasing search appearances using meta content tags in websites files for better SEO.',
+      ],
+    },
+  ]
   return (
     <div
       className="Resume"
@@ -26,107 +93,25 @@ const Resume = () => {
       <div className="part">
         <Particles />
 
-        <div
-          className="resume_b"
-          style={{ whiteSpace: 'nowrap' }}
-          id="container"
-        >
-          <div className="resume_Block1">
-            <div className="resume_Block1Head">
-              WEB DEVELOPER 01/2018 to CURRENT SELF – Yaba Lagos | Lagos, LA
-              Major Benchmarks:.
-            </div>
-            <div className="resume_Block1_BM">
-              <ul>
-                <li>
-                  Built and deployed Instagram clone using ReactJs and
-                  firebase,.
-                </li>
-                <li>Efficiently deployed PWA (Progressive Web App).</li>
-                <li>
-                  Manually Registered Service Worker to better assist netlify to
-                  host NextJs
-                </li>
-                <li>
-                  PWA's(Progressive Web App). https://github.com/Adewusi Adeoye{' '}
-                </li>
-                <li>Adewusi Adeoye .netlify.app</li>
-                <li>
-                  Created Web Page with intractable 3D objects using ThreeJs.
-                </li>
-                <li>
-                  Created multiple professional mobile and web designs using
-                  AdobeXD.
-                </li>
-                <li>Integrated firebase firestore database ina web app.</li>
-                <li>Deployed web app efficiently on firebase network.</li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="resume_Block2">
-            WEB DEVELOPER 01/2018 to CURRENT TRONICLAB – Yaba Lagos | Lagos, LA
-            Major Benchmarks:
-            <ul>
-              <li>
-                {' '}
-                Leveraged web development practice experience and comprehensive
-                knowledge to professionally assemble, install, test, and build
-                website from start to finish.
-              </li>
-              <li>
-                Influenced customer satisfaction score by Integrating website
-                for mobile.
-              </li>
-              <li>
-                Mounted strategies for the on-page search engine optimization.
-              </li>
-              <li>
-                Paved way for the website to be ranked high on google search.
-              </li>
-              <li>Solicited to design 3D models.</li>
-              <li>
-                Designed developed and coded earlier versions of website which
-                had a database of comments, users, and posts.
-              </li>
-              <li>Regularly update website and add new pages.</li>
-              <li>
-                Handpicked to build website commercial section from scratch to
-                finished product (ongoing project).
-              </li>
-              <li>
-                Currently implementing payment gateway for Lampix Smart
-                Projector.
-              </li>
-            </ul>
-          </div>
-
-          <div className="resume_Block3">
-            FULL STACK WEB DEVELOPER 01/2018 to 06/2019 EASYTRANSPORT.COM.NG |
-            Lagos, LA
-            <ul>
-              <li>Charged with design of company logo.</li>
-              <li>
-                Built Company website from scratch using HTML CSS JavaScript and
-                Jquery;.
-              </li>
-              <li>
-                Enhanced quality outcomes by building company contact form using
-                PHP to connect between Cpanel email and website contact form.
-              </li>
-              <li>
-                Aligned organization for growth by increasing search appearances
-                using meta content tags in website's files for better SEO.
-              </li>
-            </ul>
-          </div>
-          <div className="resume_Block4">
-            FREELANCE FRONT END DEVELOPER 01/2017 to 03/2019 Self Employed Web |
-            Lagos, Lagos, Nigeria
-          </div>
+        <div className="resummeGrids">
+          {data.map((item, index) => {
+            return (
+              <div className="resumeListsCover">
+                <div className="titleDate">
+                  <h1>{item.title}</h1>
+                  <p>{item.date}</p>
+                </div>
+                <p>{item.place}</p>
+                <ul>
+                  {item.joblist.map((joblists, index) => {
+                    return <li>{joblists}</li>
+                  })}
+                </ul>
+              </div>
+            )
+          })}
         </div>
       </div>
-
       <div className="resume_T">
         <div className="resume_Technologies">
           <h2>Technologies</h2>

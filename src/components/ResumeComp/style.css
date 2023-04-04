@@ -6,6 +6,27 @@
     position: relative;
 
 }
+.resummeGrids{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+    overflow: scroll;
+    position: absolute;
+    top: 50px;
+}
+.titleDate{
+    display: flex;
+    justify-content: space-between;
+}
+.resumeListsCover{
+    padding-left: 3%;
+    padding-right: 3%;;
+background: #fff;
+border-radius: 20px;
+width: 40%;
+margin-bottom: 12%;
+}
 .resume_b{
     display: flex;
     /* grid-gap: 20%; */
@@ -17,8 +38,14 @@
     width: 100%;
 }
 .part{
-    padding-left: 7%;
+    /* padding-left: 7%;
+    padding-right: 7%; */
+    padding-bottom: 10%;
+    padding-top: 10%;
     background-color: #000;
+    position: relative;
+    overflow: scroll;
+height: 20%;
     background-image: radial-gradient(circle at top right, rgba(121, 68, 154, 0.13), transparent), radial-gradient(circle at 20% 80%, rgba(41, 196, 255, 0.13), transparent);
 }
 .resume_Block1{
