@@ -55,8 +55,11 @@
 }
 .topView_Skills{
     display: flex;
-    width: 0%;
+    /* width: 0%; */
     color: white;
+}
+.topView_Skills p{
+    font-weight: 900;
 }
 .topView_Htmlcss{
  background-color: #222;
@@ -64,6 +67,7 @@
  padding-right: 20px;
  padding-top: 2%;
  padding-bottom: 2%;
+ /* width: 100%; */
  margin-left: 20px;
  border-radius: 20px;
  box-shadow: 3px 3px 0 #23B5D3, 2px 2px 0 #23B5D3, 1px 1px 0 #23B5D3;

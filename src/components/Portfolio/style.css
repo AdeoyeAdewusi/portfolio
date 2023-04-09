@@ -1,5 +1,6 @@
 .portfolio{
     width: 100%;
+    overflow: scroll;
 }
 .portfolio_Grid{
     align-items: center;

@@ -18,6 +18,21 @@ const Resume = () => {
   const data = [
     {
       title: ' FRONT END DEVELOPER',
+      date: '12/2022 to 03/2023 ',
+      place: 'Contract | WishCard | Lagos, LA',
+      joblist: [
+        'Integrated the UX/UI design with pixel-perfect accuracy for a gifting app startup, resulting in a 20% increase in user engagement.',
+        'Developed a component using the ffmpeg library to convert an array of images into a video with dynamic text, resulting in a 30% increase in user-generated content.',
+        'Integrated the backend with the frontend in record time, reducing development time by 40%.',
+        'Created a custom audio recording component that enabled users to record and save audios to the backend, resulting in a 25% increase in user retention.',
+        'Added 3D cards using ThreeJs, resulting in a 15% increase in user engagement and a 20% increase in user-generated content.',
+        'Implemented authentication for user accounts using JWS token with expiring cookies, resulting in a 50% reduction in unauthorized access attempts.',
+        'Used code to add animations to 3D models, assisting the 3D designer and resulting in a 30% reduction in development time.',
+        'Created multiple Wishcards, enabling users to combine audio and images to create videos for sharing with their loved ones and friends, resulting in a 35% increase in user engagement and a 20% increase in user-generated content.',
+      ],
+    },
+    {
+      title: ' FRONT END DEVELOPER',
       date: '01/2022 to 06/2023 ',
       place: 'CODEMANIA | Lagos, LA',
       joblist: [
@@ -112,7 +127,7 @@ const Resume = () => {
           })}
         </div>
       </div>
-      <div className="resume_T">
+      {/* <div className="resume_T">
         <div className="resume_Technologies">
           <h2>Technologies</h2>
         </div>
@@ -129,7 +144,7 @@ const Resume = () => {
             <li>JavaScript</li>
           </ul>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }
