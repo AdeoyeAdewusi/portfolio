@@ -17,7 +17,7 @@ const Resume = () => {
   }
   const data = [
     {
-      title: ' FRONT END DEVELOPER',
+      title: 'Contract - Lead Front End Engineer',
       date: 'December 2022 - March 2023 ',
       place: 'Contract | WishCard | Lagos, LA',
       joblist: [
@@ -32,7 +32,7 @@ const Resume = () => {
       ],
     },
     {
-      title: ' FRONT END DEVELOPER',
+      title: 'Remote - Lead Front End Engineer',
       date: 'June 2021 - June 2022',
       place: 'CODEMANIA | Lagos, LA',
       joblist: [
@@ -51,7 +51,7 @@ const Resume = () => {
       ],
     },
     {
-      title: 'WEB DEVELOPER',
+      title: 'Remote - Full Stack Developer',
       date: 'January 2020 - June 2021',
       place: 'Yaba Lagos | Lagos, LA',
       joblist: [
@@ -69,7 +69,7 @@ const Resume = () => {
       ],
     },
     {
-      title: ' WEB DEVELOPER  TRONICLAB',
+      title: 'Troniclab Offices - Lead Front End Developer',
       date: 'February 2018 - Decemmber 2019',
       place: 'Yaba Lagos | Lagos, LA',
       joblist: [
