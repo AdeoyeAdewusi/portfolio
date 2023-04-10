@@ -15,6 +15,16 @@
     position: absolute;
     top: 50px;
 }
+/* Hide scrollbar for Chrome, Safari and Opera */
+.resummeGrids::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .resummeGrids{
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
 .titleDate{
     display: flex;
     justify-content: space-between;

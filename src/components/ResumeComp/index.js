@@ -18,7 +18,7 @@ const Resume = () => {
   const data = [
     {
       title: ' FRONT END DEVELOPER',
-      date: '12/2022 to 03/2023 ',
+      date: 'December 2022 - March 2023 ',
       place: 'Contract | WishCard | Lagos, LA',
       joblist: [
         'Integrated the UX/UI design with pixel-perfect accuracy for a gifting app startup, resulting in a 20% increase in user engagement.',
@@ -33,7 +33,7 @@ const Resume = () => {
     },
     {
       title: ' FRONT END DEVELOPER',
-      date: '01/2022 to 06/2023 ',
+      date: 'June 2021 - June 2022',
       place: 'CODEMANIA | Lagos, LA',
       joblist: [
         'Developed the architecture for an SME (small and medium enterprise) Web app finance app which was 100% sclalable.',
@@ -52,7 +52,7 @@ const Resume = () => {
     },
     {
       title: 'WEB DEVELOPER',
-      date: '01/2018 to CURRENT SELF',
+      date: 'January 2020 - June 2021',
       place: 'Yaba Lagos | Lagos, LA',
       joblist: [
         'Formulated a template page which used a kind of pseudo database on the frontend to render views for the user, this helped the page load faster and give the end user a more seamless experience',
@@ -70,7 +70,7 @@ const Resume = () => {
     },
     {
       title: ' WEB DEVELOPER  TRONICLAB',
-      date: '01/2018 to CURRENT',
+      date: 'February 2018 - Decemmber 2019',
       place: 'Yaba Lagos | Lagos, LA',
       joblist: [
         'Leveraged web development practice experience and comprehensive  knowledge to professionally assemble, install, test, and build website from start to finish.',
@@ -87,7 +87,7 @@ const Resume = () => {
     },
     {
       title: ' FULL STACK WEB DEVELOPER ',
-      date: '01/2018 to 06/2019 ',
+      date: 'February 2016 - Jnuary 2018',
       place: 'EASYTRANSPORT.COM.NG | Lagos, LA',
       joblist: [
         'Charged with design of company logo.',

@@ -61,9 +61,9 @@ const Topview = () => {
             <p>Blender3D</p>
           </div>
         </div>
-        <div className="mh2">
+        {/* <div className="mh2">
           <h2 style={{ color: 'white' }}>Click Here For My Projects</h2>
-        </div>
+        </div> */}
         <div className="contscts">
           <Link
             to={{ pathname: 'https://github.com/AdeoyeAdewusi' }}
